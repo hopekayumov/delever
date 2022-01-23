@@ -1,0 +1,33 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    transition: box-shadow 0.4s ease;
+}
+.info:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.info__data {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.info__data--number {
+    color: #4094F7;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.info__data--name {
+    color: #6E8BB7;
+    font-weight: normal;
+    font-size: 14px;
+}
+.info__icon--img {
+    padding: 20px;
+    background: rgba(64, 148, 247, 0.15);
+    border-radius: 6px;
+}

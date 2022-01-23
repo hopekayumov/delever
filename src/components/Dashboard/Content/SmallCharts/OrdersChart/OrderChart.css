@@ -1,0 +1,40 @@
+.order-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    background-color: #fff;
+    padding: 27px;
+    border-radius: 6px;
+}
+.order-chart__title {
+    font-size: 14px;
+    color: #6E8BB7;
+}
+.order-chart__info {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+}
+.order-chart__info--num {
+    color: #303940;
+    font-weight: bold;
+    font-size: 24px;
+}
+.order-chart__info--proc {
+    color: #F2271C;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.order-chart__data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(242, 39, 28, 0.1);
+    border-radius: 12px;
+    padding: 8px 13px 8px 12px;
+}

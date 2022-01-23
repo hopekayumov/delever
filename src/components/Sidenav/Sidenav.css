@@ -1,0 +1,17 @@
+.sidebar__nav--link:not(:last-child) {
+    margin-bottom: 14px;
+}
+.sidebar__nav--link * {
+    fill: #6E8BB7;
+}
+.sidebar__nav--link *:hover {
+    fill: #0E73F6;
+}
+.sidebar__nav--img {
+    width: 20px;
+    height: 20px;
+}
+/* Content */
+.content {
+    width: 100%;
+}
