@@ -24,7 +24,6 @@ import OrderChart from "../../components/Dashboard/Content/SmallCharts/OrdersCha
 import YellowChart from "../../assets/images/YellowChart.png";
 import PurpleChart from "../../assets/images/PurpleChart.png";
 import RedChart from "../../assets/images/RedChart.png";
-import PieChart from "../../components/Dashboard/Content/PieChart/PieCharts";
 
 function Dashboard() {
   return (
