@@ -20,6 +20,11 @@ import InfoUsers from "../../assets/images/InfoUsers.svg";
 import InfoNotification from "../../assets/images/Infonotifications.svg";
 import InfoCar from "../../assets/images/InfoCar.svg";
 import OrderChart from "../../components/Dashboard/Content/SmallCharts/OrdersChart/OrderChart";
+// Chart icons
+import YellowChart from "../../assets/images/YellowChart.png";
+import PurpleChart from "../../assets/images/PurpleChart.png";
+import RedChart from "../../assets/images/RedChart.png";
+import PieChart from "../../components/Dashboard/Content/PieChart/PieCharts";
 
 function Dashboard() {
   return (
@@ -51,8 +56,6 @@ function Dashboard() {
         <Sidenav image={Settings} path="settings">
           <Settings className="sidebar__nav--img" alt="settings" />
         </Sidenav>
-
-        
       </Sidebar>
       {/* Content */}
       <div className="content">
@@ -80,7 +83,29 @@ function Dashboard() {
             </li>
           </ul>
           <div className="content__small-charts">
-            <OrderChart />
+            <ul className="content__small-charts__list">
+              <li className="content__small-charts__item">
+                <OrderChart
+                  title="Total orders this month"
+                  numbers="1,850"
+                  image={YellowChart}
+                />
+              </li>
+              <li className="content__small-charts__item">
+                <OrderChart
+                  title="Earning this month"
+                  numbers="$6,250"
+                  image={PurpleChart}
+                />
+              </li>
+              <li className="content__small-charts__item">
+                <OrderChart
+                  title="Total orders this month"
+                  numbers="$12,750"
+                  image={RedChart}
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </div>

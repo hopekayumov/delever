@@ -22,10 +22,20 @@
   display: flex;
   justify-content: space-evenly;
 }
+/* Small charts */
 .content__small-charts {
     display: flex;
     flex-direction: column;
 }
+.content__small-charts__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.content__small-charts__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1400px) {
     .content__body {
         max-width: 1400px;
